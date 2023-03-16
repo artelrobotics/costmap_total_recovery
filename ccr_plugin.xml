@@ -1,0 +1,7 @@
+<library path="lib/libcostmap_total_recovery">
+  <class name="costmap_total_recovery/CostmapTotalRecovery" type="costmap_total_recovery::CostmapTotalRecovery" base_class_type="nav_core::RecoveryBehavior">
+    <description>
+      A recovery behavior that reverts the costmap to the static map outside of a user specified window.
+    </description>
+  </class>
+</library>
